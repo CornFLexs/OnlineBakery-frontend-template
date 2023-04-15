@@ -1,0 +1,66 @@
+.backg {
+    background-color: #361623;
+    width: 1600px;
+    height: 900px;
+    margin-left: 160px;
+    margin-top: 40px;
+    font-family: font2;
+    border-radius: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.backg {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.backg::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.about {
+    color: white;
+    font-size: 20px;
+    margin: 50px 50px 50px
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    margin: 50px 50px 50px
+}
+
+.pop-in-delay {
+    animation-name: pop-in-delay;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: scale(0.5);
+    animation-delay: 0.1s;
+}
+
+@keyframes pop-in-delay {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.images {
+    margin: 0px 30px 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.imagecontainer {
+    margin-left: 300px;
+}

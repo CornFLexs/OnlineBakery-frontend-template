@@ -1,0 +1,105 @@
+<div class="backg">
+    <div class="cate pop-in-delay">&#9901; Cakes </div>
+    <ul>
+        <div class="internalscrolle pop-in-delay">
+            <li *ngFor="let cake of cakes" class="lielements">
+                <span class="wrapper">
+          <div class="product-img">
+            <img src="{{ cake.url }}" height="420" width="327" />
+          </div>
+          <div class="product-info">
+            <div class="product-text">
+              <h1>{{ cake.name }}</h1>
+              <p>{{ cake.detail }}</p>
+            </div>
+            <div class="product-price-btn">
+              <p>
+                <span>{{ cake.price }}</span
+                >$
+              </p>
+              <button type="button">buy now</button>
+            </div>
+          </div>
+        </span>
+            </li>
+        </div>
+    </ul>
+
+
+    <div class="cate pop-in-delay">&#9901; Breads</div>
+    <ul>
+        <div class="internalscrolle pop-in-delay">
+            <li *ngFor="let bread of breads" class="lielements">
+                <span class="wrapper">
+          <div class="product-img">
+            <img src="{{ bread.url }}" height="420" width="327" />
+          </div>
+          <div class="product-info">
+            <div class="product-text">
+              <h1>{{ bread.name }}</h1>
+              <p>{{ bread.detail }}</p>
+            </div>
+            <div class="product-price-btn">
+              <p>
+                <span>{{ bread.price }}</span
+                >$
+              </p>
+              <button type="button">buy now</button>
+            </div>
+          </div>
+        </span>
+            </li>
+        </div>
+    </ul>
+
+    <div class="cate pop-in-delay">&#9901; Cookies</div>
+    <ul>
+        <div class="internalscrolle pop-in-delay">
+            <li *ngFor="let cookie of cookies" class="lielements">
+                <span class="wrapper">
+          <div class="product-img">
+            <img src="{{ cookie.url }}" height="420" width="327" />
+          </div>
+          <div class="product-info">
+            <div class="product-text">
+              <h1>{{ cookie.name }}</h1>
+              <p>{{ cookie.detail }}</p>
+            </div>
+            <div class="product-price-btn">
+              <p>
+                <span>{{ cookie.price }}</span
+                >$
+              </p>
+              <button type="button">buy now</button>
+            </div>
+          </div>
+        </span>
+            </li>
+        </div>
+    </ul>
+
+    <div class="cate pop-in-delay">&#9901; Cup-Cakes</div>
+    <ul>
+        <div class="internalscrolle pop-in-delay">
+            <li *ngFor="let cupcake of cupcakes" class="lielements">
+                <span class="wrapper">
+          <div class="product-img">
+            <img src="{{ cupcake.url }}" height="420" width="327" />
+          </div>
+          <div class="product-info">
+            <div class="product-text">
+              <h1>{{ cupcake.name }}</h1>
+              <p>{{ cupcake.detail }}</p>
+            </div>
+            <div class="product-price-btn">
+              <p>
+                <span>{{ cupcake.price }}</span
+                >$
+              </p>
+              <button type="button">buy now</button>
+            </div>
+          </div>
+        </span>
+            </li>
+        </div>
+    </ul>
